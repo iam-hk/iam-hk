@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Harsh 👋</h1>
 
 <p align="center">
-  Backend engineer · open-source contributor · building things that work end to end
+  Full Stack engineer · open-source contributor · building things that work end to end
 </p>
 
 <p align="center">
