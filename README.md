@@ -6,19 +6,20 @@
 
 <p align="center">
   <a href="https://github.com/iam-hk?tab=repositories"><img alt="Repos" src="https://img.shields.io/badge/repos-13-informational?style=flat-square"></a>
-  <a href="https://github.com/wimpysworld/deb-get/pull/2120"><img alt="Open PRs" src="https://img.shields.io/badge/open%20source%20PRs-2%20open%20%7C%203%20merged-success?style=flat-square"></a>
+  <a href="https://github.com/amd/gaia/pull/8398"><img alt="Open PRs" src="https://img.shields.io/badge/open%20source%20PRs-3%20open%20%7C%203%20merged-success?style=flat-square"></a>
 </p>
 
 ---
 
 ### 🔭 Currently
 
-Fixing real bugs in projects I use — not padding a contribution graph. Recent work: a security guard gap in **amd/gaia**, a race condition that silently dropped data in **nakama**, and a missing app definition in **deb-get**.
+Fixing real bugs in projects I use — not padding a contribution graph. Recent work: a security guard gap and a stale-session bug in **amd/gaia**, a race condition that silently dropped data in **nakama**, and a missing app definition in **deb-get**.
 
 ### 🤝 Recent open-source contributions
 
 | Project | What I fixed | Status |
 |---|---|---|
+| [amd/gaia](https://github.com/amd/gaia) ★1.6k | A stale session kept a withheld file listed as "approved" after eviction or a restart — [#8398](https://github.com/amd/gaia/pull/8398) | 🔄 In review |
 | [amd/gaia](https://github.com/amd/gaia) ★1.6k | Skill-suggestion wording no longer orders the model to load an unrelated playbook — [#8229](https://github.com/amd/gaia/pull/8229) | ✅ Merged |
 | [amd/gaia](https://github.com/amd/gaia) ★1.6k | A write tool could overwrite a secret with a redaction placeholder if the secret appeared mid-approval — [#8260](https://github.com/amd/gaia/pull/8260) | ✅ Merged |
 | [amd/gaia](https://github.com/amd/gaia) ★1.6k | A forged marker spelled with an accented letter slipped past a security check — [#8274](https://github.com/amd/gaia/pull/8274) | ✅ Merged |
